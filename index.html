@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="style.css">
+
+<title>Калькулятор вычисления отхода выемочного участка - (ПК- ) </title>
+</head>
+<body>  
+	<h3>Калькулятор вычисления отхода выемочного участка - (ПК- , м)</h3>
+	<img src="image/picket.png" width="750" height="385" alt="схема пикетов">	
+	<form>
+			<br>
+			<h3>ВЕРХ выемочного участка</h3>
+			<tr><td>Пикет прошлые сутки, м</td>
+                <td>
+			       <p>сотые ПК000</p> <input id="a1" type="text" value="0"><br>
+				</td>
+				<td>
+					<p>десятые + 0,0</p> <input id="a3" type="text" value="0"><br>
+				 </td>
+            </tr>
+			<tr><td>Пикет текущие сутки, м</td>
+                <td>
+			      <p>cотые ПК000</p> <input id="a2" type="text" value="0"><br>
+				</td>
+				<td>
+					<p>десятые + 0,0</p> <input id="a4" type="text" value="0"><br>
+				  </td>
+            </tr>
+            <br>
+			<h3>НИЗ выемочного участка</h3>
+			<tr><td>Пикет прошлые сутки, м</td>
+                <td>
+			       <p>сотые ПК000</p> <input id="a5" type="text" value="0"><br>
+				</td>
+				<td>
+					<p>десятые + 0,0</p> <input id="a7" type="text" value="0"><br>
+				 </td>
+            </tr>
+			<tr><td>Пикет текущие сутки, м</td>
+                <td>
+			      <p>cотые ПК000</p> <input id="a6" type="text" value="0"><br>
+				</td>
+				<td>
+					<p>десятые + 0,0</p> <input id="a8" type="text" value="0"><br>
+				  </td>
+			</tr>
+			<tr><td>Отход по средней линии, м </td>
+                <td>
+			         <input type="button" value="Рассчитать" onclick="middle();">
+                </td>
+            </tr>
+        </form>
+		<br>
+		<span id="result1"></span>
+
+<script src="javascript.js"></script>
+</body>
+</html>
